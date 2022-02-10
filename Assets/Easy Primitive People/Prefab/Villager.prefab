@@ -1902,6 +1902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 241393083461029318}
+  - component: {fileID: 1411963139614208399}
   m_Layer: 0
   m_Name: BaseCharacter
   m_TagString: Untagged
@@ -1929,6 +1930,19 @@ Transform:
   m_Father: {fileID: 2750536015425250604}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1411963139614208399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3104121202471977029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31527adbb03c4a5c9ffbcbff15bb738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneLoad: 0
 --- !u!1 &3271014239631468423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2332,6 +2346,7 @@ GameObject:
   - component: {fileID: 6856830559304216}
   - component: {fileID: 544821428086332654}
   - component: {fileID: 8349606699099708777}
+  - component: {fileID: 6363934686531157892}
   m_Layer: 0
   m_Name: Hair
   m_TagString: Untagged
@@ -2404,6 +2419,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6363934686531157892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4975951496047264537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31527adbb03c4a5c9ffbcbff15bb738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneLoad: 0
 --- !u!1 &5167750832876283449
 GameObject:
   m_ObjectHideFlags: 0
