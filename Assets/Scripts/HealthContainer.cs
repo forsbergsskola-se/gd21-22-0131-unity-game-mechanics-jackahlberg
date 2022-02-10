@@ -44,7 +44,7 @@ public class HealthContainer : MonoBehaviour
 
     private void Die()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     IEnumerator InvulnerableTimer()
