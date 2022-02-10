@@ -16,7 +16,6 @@ public class LevelGoal : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene(nextSceneLoad);
 
             if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
             {
