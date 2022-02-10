@@ -1125,6 +1125,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1315975550}
     - target: {fileID: 43839279, guid: 7fe6a31e1ab8f454590f04daecb5fb06, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 43839279, guid: 7fe6a31e1ab8f454590f04daecb5fb06, type: 3}
       propertyPath: _playerDash
       value: 
       objectReference: {fileID: 1315975554}
