@@ -10,7 +10,7 @@ public class OnTriggerDeath : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("Level1");
         }
     }
 }

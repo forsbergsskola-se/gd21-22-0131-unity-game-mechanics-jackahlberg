@@ -73,3 +73,9 @@ crashlytics-build.properties
 Library/SourceAssetDB
 Temp/FSTimeGet-c80515f21778f40e0913788b81865a81
 *.dll
+*.traceevents
+*.traceevents
+*.json
+*.digestcache
+*.state
+*.map
