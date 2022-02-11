@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class OnTriggerDeathLevel1 : MonoBehaviour
+public class OnTriggerDeathLevelOne : MonoBehaviour
 {
-
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Player"))
