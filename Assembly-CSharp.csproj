@@ -59,19 +59,19 @@
     <Compile Include="Assets/Scripts/LevelGoal.cs" />
     <Compile Include="Assets/Scripts/InputManager.cs" />
     <Compile Include="Assets/Scripts/LevelSelection.cs" />
-    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/Jack Fors Ahlberg/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/GroundChecker.cs" />
     <Compile Include="Assets/BrokenVector/UltimateDungeonPack/Scripts/LightImprove.cs" />
     <Compile Include="Assets/Scripts/AIFollowPlayer.cs" />
-    <Compile Include="Assets/Scripts/PlayerDash.cs" />
+    <Compile Include="Assets/Scripts/Jack Fors Ahlberg/PlayerDash.cs" />
     <Compile Include="Assets/Scripts/NextLevel.cs" />
     <Compile Include="Assets/BrokenVector/UltimateDungeonPack/Scenes/Demo/FPControls/Scripts/MouseCamLook.cs" />
     <Compile Include="Assets/Scripts/OnTriggerDeath.cs" />
     <Compile Include="Assets/Scripts/HealthContainer.cs" />
-    <Compile Include="Assets/Scripts/PlayerDealDamage.cs" />
+    <Compile Include="Assets/Scripts/Jack Fors Ahlberg/PlayerDealDamage.cs" />
     <Compile Include="Assets/Scripts/AIDealDamage.cs" />
     <Compile Include="Assets/Scripts/ButtonManager.cs" />
-    <Compile Include="Assets/Scripts/IgnoreCollider.cs" />
+    <Compile Include="Assets/Scripts/Jack Fors Ahlberg/IgnoreCollider.cs" />
     <Compile Include="Assets/BrokenVector/UltimateDungeonPack/Scenes/Demo/FPControls/Scripts/CharacterController.cs" />
     <Compile Include="Assets/Scripts/OnTriggerDeathLevelOne.cs" />
   </ItemGroup>
