@@ -14,15 +14,11 @@ public class LevelGoal : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.CompareTag("Player"))
+        if (collision.collider.CompareTag("Player") && nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
         {
             SceneManager.LoadScene("MainMenu");
-
-            if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
-            {
-                PlayerPrefs.SetInt("levelAt", nextSceneLoad);
-            }
-            
+            PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+                        
         }
 
     }
