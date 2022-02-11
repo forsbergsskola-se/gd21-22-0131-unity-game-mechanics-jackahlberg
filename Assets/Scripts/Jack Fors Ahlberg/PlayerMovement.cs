@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.PlayerLoop;
 
 public class PlayerMovement : MonoBehaviour

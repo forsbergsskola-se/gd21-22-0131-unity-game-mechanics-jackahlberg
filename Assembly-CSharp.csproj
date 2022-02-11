@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,6 +53,9 @@
     <UnityVersion>2021.2.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets/Scripts/PlayerJump.cs" />
     <Compile Include="Assets/Scripts/HealthUI.cs" />
     <Compile Include="Assets/Scripts/CommandContainer.cs" />
@@ -63,6 +66,7 @@
     <Compile Include="Assets/Scripts/GroundChecker.cs" />
     <Compile Include="Assets/BrokenVector/UltimateDungeonPack/Scripts/LightImprove.cs" />
     <Compile Include="Assets/Scripts/AIFollowPlayer.cs" />
+    <Compile Include="Assets/Scripts/OnTriggerDeathLevelOne.cs" />
     <Compile Include="Assets/Scripts/Jack Fors Ahlberg/PlayerDash.cs" />
     <Compile Include="Assets/Scripts/NextLevel.cs" />
     <Compile Include="Assets/BrokenVector/UltimateDungeonPack/Scenes/Demo/FPControls/Scripts/MouseCamLook.cs" />
@@ -73,7 +77,6 @@
     <Compile Include="Assets/Scripts/ButtonManager.cs" />
     <Compile Include="Assets/Scripts/Jack Fors Ahlberg/IgnoreCollider.cs" />
     <Compile Include="Assets/BrokenVector/UltimateDungeonPack/Scenes/Demo/FPControls/Scripts/CharacterController.cs" />
-    <Compile Include="Assets/Scripts/OnTriggerDeathLevelOne.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
